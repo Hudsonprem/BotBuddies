@@ -21,8 +21,6 @@ class App extends Component {
   this.setState({seacrhfield :event.target.value});
  } 
 
-
-
 render(){
   const {robots, seacrhfield} = this.state;
   const filterList = robots.filter(function(robots){
