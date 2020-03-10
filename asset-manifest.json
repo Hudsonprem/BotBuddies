@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9334af4.chunk.css",
-    "main.js": "/static/js/main.905eb17f.chunk.js",
-    "main.js.map": "/static/js/main.905eb17f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.59d46d1a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.59d46d1a.js.map",
-    "static/css/2.3b6f1bda.chunk.css": "/static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.3a7757fe.chunk.js": "/static/js/2.3a7757fe.chunk.js",
-    "static/js/2.3a7757fe.chunk.js.map": "/static/js/2.3a7757fe.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ffe243a18f55d175a1ad6907cdfed1cf.js": "/precache-manifest.ffe243a18f55d175a1ad6907cdfed1cf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.3b6f1bda.chunk.css.map": "/static/css/2.3b6f1bda.chunk.css.map",
-    "static/css/main.e9334af4.chunk.css.map": "/static/css/main.e9334af4.chunk.css.map",
-    "static/js/2.3a7757fe.chunk.js.LICENSE.txt": "/static/js/2.3a7757fe.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/American Donuts.ced7efea.ttf"
+    "main.css": "/BotBuddies/static/css/main.55fc9a69.chunk.css",
+    "main.js": "/BotBuddies/static/js/main.ed2ef3a6.chunk.js",
+    "main.js.map": "/BotBuddies/static/js/main.ed2ef3a6.chunk.js.map",
+    "runtime-main.js": "/BotBuddies/static/js/runtime-main.5786af29.js",
+    "runtime-main.js.map": "/BotBuddies/static/js/runtime-main.5786af29.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/BotBuddies/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.3a7757fe.chunk.js": "/BotBuddies/static/js/2.3a7757fe.chunk.js",
+    "static/js/2.3a7757fe.chunk.js.map": "/BotBuddies/static/js/2.3a7757fe.chunk.js.map",
+    "index.html": "/BotBuddies/index.html",
+    "precache-manifest.549a088e7ae62724731ccb357779827c.js": "/BotBuddies/precache-manifest.549a088e7ae62724731ccb357779827c.js",
+    "service-worker.js": "/BotBuddies/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/BotBuddies/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.55fc9a69.chunk.css.map": "/BotBuddies/static/css/main.55fc9a69.chunk.css.map",
+    "static/js/2.3a7757fe.chunk.js.LICENSE.txt": "/BotBuddies/static/js/2.3a7757fe.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/BotBuddies/static/media/American Donuts.ced7efea.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.59d46d1a.js",
+    "static/js/runtime-main.5786af29.js",
     "static/css/2.3b6f1bda.chunk.css",
     "static/js/2.3a7757fe.chunk.js",
-    "static/css/main.e9334af4.chunk.css",
-    "static/js/main.905eb17f.chunk.js"
+    "static/css/main.55fc9a69.chunk.css",
+    "static/js/main.ed2ef3a6.chunk.js"
   ]
 }
