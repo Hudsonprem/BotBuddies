@@ -1,46 +1,50 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import Scroll from "../Components/Scroll";
 import CardList from '../Components/CardList';
 import Seacrh from "../Components/Search";
-import robots from "../Components/robots";
+// import robots from "../Components/robots";
 import "./App.css";
 
+function App() 
+{
+  var array = [];
+  async function fetchmon()
+  {
+  var poke = await fetch("https://pokeapi.co/api/v2/pokemon?limit=500");
+  var list = await poke.json();
+  array = await list.results;
+  setPokemon(array);
+  }
 
-class App extends Component {
-
-  constructor(){
-    super();
-    this.state = {
-      robots : robots,
-      seacrhfield : ""
-    }
-  }  
-
- onSearch = (event) =>
- {
-  this.setState({seacrhfield :event.target.value});
- } 
-
-render(){
-  const {robots, seacrhfield} = this.state;
-  const filterList = robots.filter(function(robots){
-    return robots.name.toLowerCase().includes(seacrhfield.toLowerCase())
-  }) 
+  const [pokemon,setPokemon ] = new useState([]);
+  const [seacrhfield,setseacrhfield ] = new useState("");
+  fetchmon()
   
-return !robots.length ? <h1>Loading</h1> : (
-  <div className ="tc">
-    <h1 className="hudson f1">
-      Welcome to robofriends
-    </h1>
- 
-    <Seacrh seacrhChange =  { this.onSearch }/>
-    <hr/>
+       function onSearch(event)
+        {
+          setseacrhfield(event.target.value);
+        } 
 
-    <Scroll>  
-        <CardList robots = { filterList}/>
-    </Scroll>
-  </div>
-);
+        const filterList = pokemon.filter(function(robot){
+        return robot.name.toLowerCase().includes(seacrhfield.toLowerCase())
+      }) 
+  
+        return !pokemon.length ? <h1>Loading </h1> : (
+          <div className ="tc">
+            <h1 className="hudson f1">
+              Welcome to Pokemon
+            </h1>
+        
+            <Seacrh seacrhChange =  { onSearch }/>
+            <hr/>
+
+            <Scroll>  
+                <CardList poke = { filterList }/>
+            </Scroll>
+          </div>
+        );
+  
+  
 }
-}
+
 export default App;

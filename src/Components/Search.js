@@ -8,7 +8,7 @@ const Search = (props)=>{
             <input 
             className="pa3 ba b--green bg-lightest-blue"
             type="search" 
-            placeholder="search robo Friends"
+            placeholder="Search your Pokemon"
             onChange = {props.seacrhChange} />
         </div>
     )

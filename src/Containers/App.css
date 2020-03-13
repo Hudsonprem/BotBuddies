@@ -2,12 +2,12 @@
   font-family: 'MyWebFont';
   font-style: normal;
   font-weight: normal;
-  src: url('American\ Donuts.ttf');
+  src: url('Pokemon\ Hollow.woff');
 }
 
 .hudson{
   font-family: MyWebFont;
   font-weight: bold;
   letter-spacing: 8px;
-  color: #0ccac4;
+  color: yellow;
 }

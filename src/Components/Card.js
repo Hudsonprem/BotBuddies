@@ -4,10 +4,10 @@ import React from 'react';
 function Card({id, name, email}){
     return(
         <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 tc" >
-            <img src= {`https://robohash.org/${id}?size=200x200`} alt="robots" />
+            <img src= {`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt="robots" />
             <div>
                 <h1>{name}</h1>
-                <p>{email}</p>
+                <p>{"🌟"}</p>
             </div>
         </div>
     );
@@ -15,4 +15,3 @@ function Card({id, name, email}){
 
 
 export default Card;
-

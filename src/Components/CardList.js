@@ -1,17 +1,37 @@
 import React from 'react';
 import Card from "./Card";
 
-const CardList = ({robots})=>
+
+const CardList = ({poke})=>
 {
     return(
         <div>
-                {robots.map((user,i) => {
+                {poke.map((user,i) => {
+
+                    var newurl = user.url.slice(user.url.length -4,user.url.length-1);
+
+                    function urlnum(url)
+                    {
+                    if(url.startsWith("/"))
+                    {
+                    return url.slice(1);
+                    }
+                    else if(url.startsWith("n"))
+                    {
+                    return url.slice(2);
+                    }
+                    else{
+                        return url;
+                    }
+                    }
+
+                  
                     return(
-                         <Card 
-                            key = {i} 
-                            id= {robots[i].id} 
-                            name={ robots[i].name } 
-                            email= { robots[i].email } 
+                         <Card
+                            key = {i}
+                            id= {urlnum(newurl)}
+                            name={ user.name }
+                            email= { "Hi I am " + user.name }
                             />
                             )
                     }
@@ -19,7 +39,7 @@ const CardList = ({robots})=>
         </div>
     );
 
-} 
+}
 
 
 export default CardList;
