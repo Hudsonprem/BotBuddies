@@ -31,7 +31,7 @@ const CardList = ({poke})=>
                             key = {i}
                             id= {urlnum(newurl)}
                             name={ user.name }
-                            email= { "Hi I am " + user.name }
+                            email= {urlnum(newurl)}
                             />
                             )
                     }
