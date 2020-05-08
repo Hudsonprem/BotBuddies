@@ -5,8 +5,6 @@ import Card from "./Card";
 
 const CardList = ({poke})=>
 {
-  
-  const [poketype,setPoketype ] = new useState([]);
   return(
         <div>
                 {poke.map((user,i) => {
