@@ -1,10 +1,13 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Card from "./Card";
+
 
 
 const CardList = ({poke})=>
 {
-    return(
+  
+  const [poketype,setPoketype ] = new useState([]);
+  return(
         <div>
                 {poke.map((user,i) => {
 
@@ -24,8 +27,7 @@ const CardList = ({poke})=>
                         return url;
                     }
                     }
-
-                  
+                
                     return(
                          <Card
                             key = {i}

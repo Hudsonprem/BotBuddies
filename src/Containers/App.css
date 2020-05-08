@@ -2,12 +2,12 @@
   font-family: 'MyWebFont';
   font-style: normal;
   font-weight: normal;
-  src: url('Pokemon\ Hollow.woff');
+  src: url('./overstreet-bible-cufonfonts/EridanusCondensed3DItalic-1gXL.otf');
 }
 
 .hudson{
   font-family: MyWebFont;
   font-weight: bold;
-  letter-spacing: 8px;
-  color: yellow;
+  color: gold;
+  letter-spacing: 10px;
 }

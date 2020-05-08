@@ -6,7 +6,7 @@ const Search = (props)=>{
     return(
         <div className="pa2">
             <input 
-            className="pa3 ba b--green bg-lightest-blue"
+            className="pa3 ba br3 b--green bg-lightest-blue"
             type="search" 
             placeholder="Search your Pokemon"
             onChange = {props.seacrhChange} />

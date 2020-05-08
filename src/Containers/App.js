@@ -32,7 +32,7 @@ function App()
         return !pokemon.length ? <h1>Loading </h1> : (
           <div className ="tc">
             <h1 className="hudson f1">
-              Welcome to Pokemon
+              Welcome to PokeCards
             </h1>
         
             <Seacrh seacrhChange =  { onSearch }/>
