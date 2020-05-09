@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/BotBuddies/static/css/main.c419c96a.chunk.css",
-    "main.js": "/BotBuddies/static/js/main.a1d5d527.chunk.js",
-    "main.js.map": "/BotBuddies/static/js/main.a1d5d527.chunk.js.map",
-    "runtime-main.js": "/BotBuddies/static/js/runtime-main.5786af29.js",
-    "runtime-main.js.map": "/BotBuddies/static/js/runtime-main.5786af29.js.map",
-    "static/css/2.3b6f1bda.chunk.css": "/BotBuddies/static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.03346fd7.chunk.js": "/BotBuddies/static/js/2.03346fd7.chunk.js",
-    "static/js/2.03346fd7.chunk.js.map": "/BotBuddies/static/js/2.03346fd7.chunk.js.map",
-    "index.html": "/BotBuddies/index.html",
-    "precache-manifest.3cf6facfba4a2ea887a530cced00f5aa.js": "/BotBuddies/precache-manifest.3cf6facfba4a2ea887a530cced00f5aa.js",
-    "service-worker.js": "/BotBuddies/service-worker.js",
-    "static/css/2.3b6f1bda.chunk.css.map": "/BotBuddies/static/css/2.3b6f1bda.chunk.css.map",
-    "static/css/main.c419c96a.chunk.css.map": "/BotBuddies/static/css/main.c419c96a.chunk.css.map",
-    "static/js/2.03346fd7.chunk.js.LICENSE.txt": "/BotBuddies/static/js/2.03346fd7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/BotBuddies/static/media/Pokemon Hollow.d749ab74.woff"
+    "main.css": "/pokecards/static/css/main.f3a7010a.chunk.css",
+    "main.js": "/pokecards/static/js/main.8b61721a.chunk.js",
+    "main.js.map": "/pokecards/static/js/main.8b61721a.chunk.js.map",
+    "runtime-main.js": "/pokecards/static/js/runtime-main.8b9b7c75.js",
+    "runtime-main.js.map": "/pokecards/static/js/runtime-main.8b9b7c75.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/pokecards/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.40d9d520.chunk.js": "/pokecards/static/js/2.40d9d520.chunk.js",
+    "static/js/2.40d9d520.chunk.js.map": "/pokecards/static/js/2.40d9d520.chunk.js.map",
+    "index.html": "/pokecards/index.html",
+    "precache-manifest.7723eb03ff0f12a5d10e216669a3bd1f.js": "/pokecards/precache-manifest.7723eb03ff0f12a5d10e216669a3bd1f.js",
+    "service-worker.js": "/pokecards/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/pokecards/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.f3a7010a.chunk.css.map": "/pokecards/static/css/main.f3a7010a.chunk.css.map",
+    "static/js/2.40d9d520.chunk.js.LICENSE.txt": "/pokecards/static/js/2.40d9d520.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pokecards/static/media/EridanusCondensed3DItalic-1gXL.c5e7d25b.otf",
+    "static/media/card.css": "/pokecards/static/media/OverstreetBible-Mnmw.a50e9724.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5786af29.js",
+    "static/js/runtime-main.8b9b7c75.js",
     "static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.03346fd7.chunk.js",
-    "static/css/main.c419c96a.chunk.css",
-    "static/js/main.a1d5d527.chunk.js"
+    "static/js/2.40d9d520.chunk.js",
+    "static/css/main.f3a7010a.chunk.css",
+    "static/js/main.8b61721a.chunk.js"
   ]
 }
